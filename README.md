@@ -1,7 +1,3 @@
-############################################################################################################ 
-## In order to add a slider, add the Slider.js component. Since the rest of the components are added to it.
-############################################################################################################
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
