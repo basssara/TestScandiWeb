@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Slider from './components/Slider';
+import i1 from './img/i1.jpg';
+import i2 from './img/i2.jpg';
+import i3 from './img/i3.jpg';
+import i4 from './img/i4.jpg';
+import i5 from './img/i5.jpg';
+
+const images = [
+  i1,
+  i2,
+  i3,
+  i4,
+  i5
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Slider slides={images} />
     </div>
   );
 }
